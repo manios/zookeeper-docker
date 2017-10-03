@@ -1,0 +1,21 @@
+language: bash
+services: docker
+
+env:
+  - VERSION=3.4.5
+
+install:
+  - git clone https://github.com/manios/zookeeper-docker  
+
+before_script:
+  - env | sort
+  - cd "$VERSION"
+  - image="zookeeper:${VERSION}"
+
+script:
+  - travis_retry docker build -t "$image"
+
+after_script:
+  - docker images
+
+# vim:set et ts=2 sw=2:
