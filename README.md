@@ -4,7 +4,7 @@ Based on commit [9f00dd7](https://github.com/31z4/zookeeper-docker/tree/9f00dd78
 
 * `3.4.5`, `latest` [(3.4.5/Dockerfile)](https://github.com/manios/zookeeper-docker/blob/master/3.4.5/Dockerfile)
 
-[![](https://images.microbadger.com/badges/image/manios/zookeeper.svg)](http://microbadger.com/images/manios/zookeeper)  ![build status badge](https://img.shields.io/travis/manios/zookeeper-docker/master.svg)](https://travis-ci.org/manios/zookeeper-docker/branches)
+[![](https://images.microbadger.com/badges/image/manios/zookeeper.svg)](http://microbadger.com/images/manios/zookeeper)  [![build status badge](https://img.shields.io/travis/manios/zookeeper-docker/master.svg)](https://travis-ci.org/manios/zookeeper-docker/branches)
 
 # What is Apache Zookeeper?
 
